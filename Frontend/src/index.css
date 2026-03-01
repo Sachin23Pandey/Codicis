@@ -1,0 +1,96 @@
+/* Thin Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Light Mode */
+body.chakra-ui-light ::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 10px;
+}
+
+body.chakra-ui-light ::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+/* Dark Mode */
+body.chakra-ui-dark ::-webkit-scrollbar-thumb {
+  background: #2d3748;
+  border-radius: 10px;
+}
+
+body.chakra-ui-dark ::-webkit-scrollbar-thumb:hover {
+  background: #4a5568;
+}
+
+
+
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Light Mode */
+body.chakra-ui-light ::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 10px;
+}
+
+body.chakra-ui-light ::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+/* Dark Mode */
+body.chakra-ui-dark ::-webkit-scrollbar-thumb {
+  background: #2d3748;
+  border-radius: 10px;
+}
+
+body.chakra-ui-dark ::-webkit-scrollbar-thumb:hover {
+  background: #4a5568;
+}
+
+/* ============================= */
+/* MONACO EDITOR SCROLLBAR */
+/* ============================= */
+
+.monaco-editor .scrollbar.vertical {
+  width: 6px !important;
+}
+
+.monaco-editor .scrollbar.horizontal {
+  height: 6px !important;
+}
+
+.monaco-editor .scrollbar .slider {
+  border-radius: 10px !important;
+}
+
+/* Light Mode Monaco */
+body.chakra-ui-light .monaco-editor .scrollbar .slider {
+  background: #cbd5e1 !important;
+}
+
+body.chakra-ui-light .monaco-editor .scrollbar .slider:hover {
+  background: #94a3b8 !important;
+}
+
+/* Dark Mode Monaco */
+body.chakra-ui-dark .monaco-editor .scrollbar .slider {
+  background: #2d3748 !important;
+}
+
+body.chakra-ui-dark .monaco-editor .scrollbar .slider:hover {
+  background: #4a5568 !important;
+}
