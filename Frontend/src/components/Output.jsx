@@ -64,7 +64,7 @@ const Output = ({
       setOutput(null);
 
       const response = await axios.post(
-        "http://localhost:3000/ai/get-review",
+        "https://codicis.onrender.com/ai/get-review",
         { code: sourceCode }
       );
 
