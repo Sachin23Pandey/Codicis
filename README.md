@@ -1,7 +1,7 @@
 
 ## 🌐 Live Demo
 
-👉 https://your-deployed-link.com
+👉 https://codicis-gamma.vercel.app/
 
 
 # 🚀 Codicis – An AI-Powered Web Code Editor
